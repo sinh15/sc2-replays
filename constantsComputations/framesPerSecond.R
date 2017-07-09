@@ -81,5 +81,5 @@ fps2$fps <- fps2$V3/fps2$V2
 # clean variable from noise and get FPS value (FPS & MEDIAN)
 View(sort(table(fps2$fps), decreasing=TRUE))
 fps2 <- fps2[fps2$fps < 22.5, ]
-summary(fps2$fps) # mean = 2.40, median = 2.40
+summary(fps2$fps) # mean = 22.40, median = 22.40
 
